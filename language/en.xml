@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.timeline.entry"><![CDATA[Timeline Entry]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.timeline.entry"><![CDATA[Timeline Entry deleted]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.timeline.entry"><![CDATA[<a href="{link controller='User' id=$statement->userID}{/link}#timeline">You have created a Timeline Entry.</a>]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.timeline.entry"><![CDATA[<a href="{link controller='User' id=$statement->userID}{/link}#timeline">One of your Timeline Entries was deleted.</a>]]></item>
+		
+		<!-- wcf.jcoins.statement.category -->
+		<item name="wcf.jcoins.statement.category.com.uz.jcoins.timeline"><![CDATA[Timeline]]></item>
+	</category>
+</language>

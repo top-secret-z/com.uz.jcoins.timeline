@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.com.uz.jcoins.statement.timeline.entry"><![CDATA[Chronik-Eintrag]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.com.uz.jcoins.statement.timeline.entry"><![CDATA[Chronik-Eintrag gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.jcoins.statement.timeline.entry"><![CDATA[<a href="{link controller='User' id=$statement->userID}{/link}#timeline">{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen Chronik-Eintrag erstellt.</a>]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.com.uz.jcoins.statement.timeline.entry"><![CDATA[<a href="{link controller='User' id=$statement->userID}{/link}#timeline">{if LANGUAGE_USE_INFORMAL_VARIANT}Einer deiner{else}Einer Ihrer{/if} Chronik-Einträge wurde gelöscht.</a>]]></item>
+		
+		<!-- wcf.jcoins.statement.category -->
+		<item name="wcf.jcoins.statement.category.com.uz.jcoins.timeline"><![CDATA[Chronik]]></item>
+	</category>
+</language>
